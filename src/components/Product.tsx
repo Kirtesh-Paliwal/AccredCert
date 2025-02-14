@@ -4,7 +4,6 @@ import * as React from 'react';
 const products = [
   {
     title: "US FDA Registration For Food, Beverages and Suppliments",
-    image: "https://images.pexels.com/photos/4820775/pexels-photo-4820775.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
     image: "/public/Productsimg/FDA food.png",
     price: 199.00,
   },
