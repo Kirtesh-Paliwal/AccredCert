@@ -16,17 +16,3 @@
   }
 }
 
-{
-  "compilerOptions": {
-    "moduleResolution": "node16",
-    "allowImportingTsExtensions": true,
-    "esModuleInterop": true,
-    "skipLibCheck": true
-  }
-}
-
-{
-  "compilerOptions": {
-    "allowImportingTsExtensions": true
-  }
-}
