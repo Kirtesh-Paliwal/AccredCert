@@ -4,42 +4,42 @@ import * as React from 'react';
 const products = [
   {
     title: "US FDA Registration For Food, Beverages and Suppliments",
-    image: "/public/Productsimg/FDA food.png",
+    image: "FDA food.png",
     price: 199.00,
   },
   {
     title: "US FDA Registration For Cosmetics(MoCRA)",
-    image: "/public/Productsimg/Mocra.png",
+    image: "Mocra.png",
     price: 399.00,
   },
   {
     title: "FSVP Agent",
-    image: "public/Productsimg/FSVp.png",
+    image: "FSVp.png",
     price: 99.00,
   },
   {
     title: "US FDA Product Label Review",
-    image: "public/Productsimg/LABEL.png",
+    image: "LABEL.png",
     price: 49.00,
   },
   {
     title: "US FDA Prior Notice",
-    image: "public/Productsimg/Prior.png",
+    image: "Prior.png",
     price: 49.00,
   },
   {
     title: "US LLC Registration",
-    image: "public/Productsimg/LLC.png",
+    image: "LLC.png",
     price: 399.00,
   },
   {
     title: "EIN Registration",
-    image: "public/Productsimg/EIN.jpeg",
+    image: "EIN.jpeg",
     price: 99.00,
   },
   {
     title: "Registered Agent For LLC",
-    image: "public/Productsimg/Agent.png",
+    image: "Agent.png",
     price: 99.00,
   },
 ] as const
