@@ -13,14 +13,14 @@ export default function Contact() {
 
     try {
       await emailjs.send(
-        'service_debska8',
-        'template_v1flaj1',
+        'service_e3k0ri9',
+        'template_t4o5a3k',
         {
           from_name: name,
           from_email: email,
           message: message,
         },
-        'pqb0uCF9a4ueZjeO-'
+        'Erj_YN0600HB1qiDV'
       );
 
       setStatus("Message sent successfully!");
