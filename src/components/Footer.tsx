@@ -52,7 +52,7 @@ export default function Footer() {
           <div className="space-y-6">
             <img src="/logo.png" alt="Logo" className="h-20 w-20" />
             <h3 className="text-3xl font-bold text-white">
-              The Compliance Consultant for better clients®
+            The Compliance Consultant for better clients®
             </h3>
           </div>
 

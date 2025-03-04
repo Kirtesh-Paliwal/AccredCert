@@ -3,12 +3,12 @@ import { Button } from "@/components/ui/button"
 import * as React from 'react';
 const products = [
   {
-    title: "US FDA Registration For Food, Beverages and Supplements",
+    title: "US FDA Registration For Food, Beverages and Suppliments",
     image: "FDA food.png",
     price: 199.00,
   },
   {
-    title: "US FDA Registration For Cosmetics(MoCRA)",
+    title: "US FDA Registration For Cosmetics (MoCRA)",
     image: "Mocra.png",
     price: 399.00,
   },
