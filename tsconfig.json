@@ -9,6 +9,9 @@
     }
   ],
   "compilerOptions": {
+     "moduleResolution": "Bundler",
+     "jsx": "react-jsx",
+     "esModuleInterop": "true",
     "baseUrl": ".",
     "paths": {
       "@/*": ["./src/*"]

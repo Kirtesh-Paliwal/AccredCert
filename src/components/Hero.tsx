@@ -44,7 +44,9 @@ const images = [
   }
 ]
 
+
 export default function Hero() {
+  
   const [currentIndex, setCurrentIndex] = useState(0)
 
   const nextSlide = () => {
@@ -96,7 +98,7 @@ export default function Hero() {
                     </Button>
                   </div>
                 </div>
-
+                
                 {/* Content Section */}
                 <div className="space-y-6">
                   <h1 className="text-4xl font-bold tracking-tight">
