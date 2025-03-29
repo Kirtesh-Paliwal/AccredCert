@@ -9,7 +9,11 @@
     }
   ],
   "compilerOptions": {
-     "moduleResolution": "Bundler",
+    "moduleResolution": "node16",
+    "types": ["./src/types/rollup"],
+    "module": "NodeNext",
+    "esModuleInterop": true,
+    "skipLibCheck": true,
      "jsx": "react-jsx",
     "baseUrl": ".",
     "paths": {
