@@ -5,7 +5,7 @@ const products = [
   {
     title: "US FDA Registration For Food, Beverages and Suppliments",
     image: "FDA food.png",
-    price: 199.00,
+    price: 10,
   },
   {
     title: "US FDA Registration For Cosmetics(MoCRA)",
@@ -59,7 +59,7 @@ export default function Product() {
               />
               <CardContent className="p-4">
                 <h3 className="font-bold text-lg leading-tight mb-2">{product.title}</h3>
-                <p className="text-xl font-semibold text-blue-600">${product.price.toFixed(2)}</p>
+                {/* <p className="text-xl font-semibold text-blue-600">${product.price.toFixed(2)}</p> */}
                 
               </CardContent>
             </Card>
