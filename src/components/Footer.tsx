@@ -2,7 +2,7 @@
 import * as React from 'react';
 import { useState } from "react"
 import { Facebook, Twitter, Linkedin, InstagramIcon as TiktokIcon, MapPin, Phone, Mail, ArrowRight } from 'lucide-react'
-import { Button } from "@/components/ui/button"
+// import { Button } from "@/components/ui/button"
 import { Input } from "@/components/ui/input"
 import { Dialog, DialogContent, DialogHeader, DialogTitle } from "@/components/ui/dialog"
 import { toast } from "@/hooks/use-toast"
@@ -77,7 +77,7 @@ export default function Footer() {
                 </div>
               </div>
             </div>
-            <Button
+            {/* <Button
               variant="link"
               className="group px-0 text-white hover:text-yellow-400"
               asChild
@@ -86,7 +86,7 @@ export default function Footer() {
                 SEE ON MAP
                 <ArrowRight className="ml-2 h-4 w-4 transition-transform group-hover:translate-x-1" />
               </a>
-            </Button>
+            </Button> */}
           </div>
 
           <div className="space-y-6 text-gray-300">

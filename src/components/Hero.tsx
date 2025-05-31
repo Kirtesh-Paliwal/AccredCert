@@ -99,19 +99,19 @@ export default function Hero() {
                   </div>
                 </div>
                 
-                {/* Content Section */}
+                 {/* Content Section */}
                 <div className="space-y-6">
                   <h1 className="text-4xl font-bold tracking-tight">
                     {images[currentIndex].title}
                   </h1>
-                  <p className="text-gray-600 text-lg">
+                  {/* <p className="text-gray-600 text-lg">
                     {images[currentIndex].description}
                   </p>
-                  {/* <Button size="lg" >
+                  { <Button size="lg" >
                     {images[currentIndex].cta}
-                  </Button> */}
+                  </Button> } */}
                 </div>
-              </div>
+              </div> 
 
               {/* Navigation Dots */}
               <div className="flex justify-center gap-2 mt-8">
